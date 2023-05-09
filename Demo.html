@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>City Hospital</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>City Hospital</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Our Services</a></li>
+          <li><a href="#doctors">Our Doctors</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to City Hospital! We are committed to providing high-quality medical care to our patients.</p>
+      </section>
+      <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+          <li>Emergency Care</li>
+          <li>Cardiology</li>
+          <li>Oncology</li>
+          <li>Neurology</li>
+          <li>Pediatrics</li>
+        </ul>
+      </section>
+      <section id="doctors">
+        <h2>Our Doctors</h2>
+        <ul>
+          <li>Dr. John Smith, Cardiologist</li>
+          <li>Dr. Jane Doe, Oncologist</li>
+          <li>Dr. Michael Johnson, Neurologist</li>
+          <li>Dr. Sarah Lee, Pediatrician</li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name"><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea><br>
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright © City Hospital</p>
+    </footer>
+  </body>
+</html>
